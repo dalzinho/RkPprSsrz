@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-  
-color: #ffbc42;
+
+  color: #ffbc42;
   font-family: 'Press Start 2P', cursive;
   
 }
@@ -26,6 +26,28 @@ header {
   background-color: #d81159;
   border-radius: 10px;
   padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 0 10px ;
+  /*padding: 0;*/
+  overflow: hidden;
+  background-color: #8f2d56;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: none;
 }
 
 .outcome {
@@ -60,4 +82,8 @@ header {
 .frisson {
   max-width: 600px;
   text-align: center;
+}
+
+.navbar {
+  background-color: red;
 }

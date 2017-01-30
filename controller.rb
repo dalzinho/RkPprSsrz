@@ -8,15 +8,19 @@ get '/' do
 end
 
 get '/rules' do
-erb(:rules)
-  end
+  erb(:rules)
+end
+
+get '/about' do
+  erb(:about)
+end
 
 get '/rock' do
   game = Game.new()
   @result = game.rock()
   erb( :result )
 end
-  
+
 get '/paper' do
   game = Game.new()
   @result = game.paper()

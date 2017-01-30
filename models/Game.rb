@@ -2,6 +2,7 @@
 
 class Game
 
+
   def initialize()
 
     options = [:rock, :paper, :scissors]
@@ -10,19 +11,19 @@ class Game
 
     @rules = {
       rock: {
-        rock: 'The rocks bash together but remain undamaged. DRAW!',
-        paper: 'The paper wraps the rock with an air of smug self satisfaction! Player 2 wins!',
-        scissors: 'The rock blunts the scissors sending sparks a-flying! Player 1 wins!'
+        rock: 'Your rock bashes together with my rock but both remain undamaged. DRAW!',
+        paper: "Your rock is enveloped by my leaf of paper. I smirk at you, for you have lost.",
+        scissors: "Your rock blunts the my scissors sending sparks a-flying in the process! You win this time!"
         },
       paper: {
-        rock: 'The paper wraps the rock with an air of smug self satisfaction! Player 1 wins!',
-        paper: 'The pieces of paper sneer at each other to little avail. DRAW!',
-        scissors: 'With a casual snip, the scissors cut the paper. Player 2 wins!'
+        rock: "Your paper wraps the my rock with an air of smug self satisfaction! You bask in the glory of victory! QAPLA!!",
+        paper: "Both of our pieces of paper sneer at each other to little avail. DRAW!",
+        scissors: "With a casual snip, my scissors cut your paper. Better luck next time, monkey brain!"
         },
       scissors: {
-        rock: 'The rock blunts the scissors sending sparks a-flying! Player 2 wins!',
-        paper: 'With a casual snip, the scissors cut the paper. Player 1 wins!',
-        scissors: 'Lacking a suitable way to interface with each other, the scissors have little effect upon one another. DRAW!'
+        rock: 'My rock blunts your scissors sending sparks a-flying! You hang your head, dejected in defeat!',
+        paper: 'With a casual snip, your scissors cut my paper. You have prevailed!',
+        scissors: 'Lacking a suitable way to interface with each other, our scissors have little effect upon one another. DRAW!'
         }
       }
   end
