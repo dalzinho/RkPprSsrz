@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: #ffbc42;
+}
+
+a:hover {
+  text-shadow: 5px 5px 10px #FF9D4A;
+}
+
+body {
+  background-color: #ffbc42;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+h1 {
+  
+color: #ffbc42;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+header {
+  max-width: 600px;
+  background-color: #d81159;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.outcome {
+  background-color: #8F2D56;
+  border-radius: 10px;
+  color: #ffbc42;
+  font-size: 20px;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.rules {
+  max-width: 600px;
+  margin-top: 20px;
+  background-color: #218380;
+  border-radius: 5px;
+  color: #ffbc42;
+  font-size: 20px ;
+  padding: 20px;
+}
+
+.weapon {
+  max-width: 600px;
+  margin-top: 20px;
+  background-color: #8f2d56;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.frisson {
+  max-width: 600px;
+  text-align: center;
+}
