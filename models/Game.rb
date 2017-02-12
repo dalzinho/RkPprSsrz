@@ -6,17 +6,17 @@ class Game
   def initialize()
 
     options = [:rock, :paper, :scissors]
-    random_number = rand(0..2)
-    @player2 = options[random_number]
+    # random_number = rand(0..2)
+    @player2 = options.sample
 
     @rules = {
       rock: {
         rock: 'Your rock bashes together with my rock but both remain undamaged. DRAW!',
         paper: "Your rock is enveloped by my leaf of paper. I smirk at you, for you have lost.",
-        scissors: "Your rock blunts the my scissors sending sparks a-flying in the process! You win this time!"
+        scissors: "Your rock blunts my scissors sending sparks a-flying in the process! You win this time!"
         },
       paper: {
-        rock: "Your paper wraps the my rock with an air of smug self satisfaction! You bask in the glory of victory! QAPLA!!",
+        rock: "Your paper wraps my rock with an air of smug self satisfaction! You bask in the glory of victory! QAPLA!!",
         paper: "Both of our pieces of paper sneer at each other to little avail. DRAW!",
         scissors: "With a casual snip, my scissors cut your paper. Better luck next time, monkey brain!"
         },
